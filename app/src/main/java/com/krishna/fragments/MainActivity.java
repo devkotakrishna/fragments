@@ -3,11 +3,13 @@ package com.krishna.fragments;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.tabs.TabLayout;
 import com.krishna.fragments.fragments.FirstFragment;
 import com.krishna.fragments.fragments.Secondfragment;
 
@@ -15,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private Button btnFragment;
     private  Boolean status =true;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

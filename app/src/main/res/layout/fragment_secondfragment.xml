@@ -7,6 +7,19 @@
     android:background="@color/colorPrimaryDark"
     tools:context=".fragments.Secondfragment">
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Radius"
+        android:id="@+id/etRadius"
+        ></EditText>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/btnArea"
+    android:hint="Area of Circle"
+    ></Button>
 
 
 </LinearLayout>
